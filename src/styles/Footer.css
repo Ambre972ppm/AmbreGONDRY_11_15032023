@@ -1,0 +1,23 @@
+.kaza-footer {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    padding-block: 2rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.kaza-footer-logo img {
+    height: 3rem;
+}
+
+.kaza-footer-quotes p {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+

@@ -1,0 +1,32 @@
+.kaza-header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 2rem;
+    margin-inline: 3rem;
+    height: 3rem;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.kaza-header-logo img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 3rem;
+}
+
+.kaza-header-links a {
+    color: #FF6060;
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .kaza-header {
+        text-transform: uppercase;
+        margin-inline: 0.5rem;
+        font-size: 12px;
+    }
+}
