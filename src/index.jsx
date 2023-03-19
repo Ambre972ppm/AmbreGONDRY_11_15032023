@@ -23,7 +23,7 @@ ReactDOM.render(
         <Route path="/about">
           <About />
         </Route>
-        <Route path="/error-404">
+        <Route>
           <ErrorPage />
         </Route>
       </Switch>
