@@ -1,11 +1,11 @@
 
-import banner from '../../assets/imgs/IMG.png'
-import '../../styles/Banner.css';
+import banner from '../../assets/imgs/home.png'
+import '../../utils/styles/Banner.css';
 
 function Banner() {
   return (
     <div className="banner-img">
-        <img src={banner} alt="Kaza banner nature" />
+        <img src={banner} alt="kasa banner nature" />
         <h2 className='banner-img-quote'>Chez vous, partout et ailleurs</h2>
     </div>
   );

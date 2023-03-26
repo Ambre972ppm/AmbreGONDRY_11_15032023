@@ -1,4 +1,4 @@
-.kaza-footer {
+.kasa-footer {
 	display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,11 +11,11 @@
     background-color: black;
 }
 
-.kaza-footer-logo img {
+.kasa-footer-logo img {
     height: 3rem;
 }
 
-.kaza-footer-quotes p {
+.kasa-footer-quotes p {
     color: white;
     text-decoration: none;
     padding: 1rem;

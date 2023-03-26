@@ -1,4 +1,4 @@
-.kaza-header {
+.kasa-header {
 	display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,21 +10,25 @@
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
 
-.kaza-header-logo img {
+.kasa-header-logo img {
     max-width: 100%;
     object-fit: cover;
     height: 3rem;
+    margin: 0;
 }
 
-.kaza-header-links a {
+.kasa-header-links a {
     color: #FF6060;
     text-decoration: none;
     justify-content: space-around;
     padding: 1rem;
 }
+.kasa-header-links a:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 500px) {
-    .kaza-header {
+    .kasa-header {
         text-transform: uppercase;
         margin-inline: 0.5rem;
         font-size: 12px;

@@ -1,12 +1,14 @@
-import '../../styles/HousingItem.css'
+import '../../utils/styles/HousingItem.css'
+import { Link } from 'react-router-dom'
 
-function HousingItem({ id, title, cover, location }) {
+function HousingItem({ id, title, cover }) {
 	return (
-		<li key={id} className='kaza-list-item'>
-			<img className='kaza-list-item-cover' src={cover} alt={`${title} cover`} />
-			{title}
-			{location}
-		</li>
+		<Link className="kasa-housing-list-item-link" to={`/housing-page/${id}`}>
+			<div key={id} className='kasa-housing-list-item'>
+				<img className='kasa-housing-list-item-cover' src={cover} alt={`${title} cover`} />
+				<h2 className='kasa-housing-list-item-title'>{title}</h2>
+			</div>
+		</Link>
 	)
 }
 

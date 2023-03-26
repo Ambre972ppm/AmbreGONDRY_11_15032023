@@ -1,37 +1,23 @@
-import { useState, useEffect } from 'react'
-import HousingItem from '../HousingItem'
+import { housingList } from '../../data/logements';
+import HousingItem from '../HousingItem';
+import React from "react";
+import '../../utils/styles/HousingList.css'
 
 function HousingList() {
-  const [housingListData, setHousingListData] = useState([])
-  const [error, setError] = useState(false)
-
-  useEffect(() => {
-    async function fetchHousingList() {
-      try {
-        const response = await fetch(`./data/logement.json`)
-        const { housingListData } = await response.json()
-        setHousingListData(housingListData)
-      } catch (err) {
-        console.log(err)
-        setError(true)
-      } finally {}
-    }
-    fetchHousingList()
-  }, [])
-
-  if (error) {
-    return <span>Oups il y a eu un problème</span>
-  }
 
   return (
-    <div className="background">
-      <div className="location-card-info">
-          {housingListData.map((location) => <HousingItem key={location.id} location={location}/>)}
-      </div>
-    </div>
-  )
 
-}
+      <React.Fragment>
+        <div className="kasa-housing-list">
+          {housingList.map((housing) => (
+            <HousingItem key={housing.id} id={housing.id} title={housing.title} cover={housing.cover} />
+          ))}
+        </div>
+      </React.Fragment>
+    );
+
+  }
+
   
   export default HousingList;
   

@@ -1,0 +1,10 @@
+.kasa-housing-list {
+	background-color: #F7F7F7;
+	border-radius: 25px;
+	margin: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+	padding: 3rem;
+	justify-content: center;
+}
