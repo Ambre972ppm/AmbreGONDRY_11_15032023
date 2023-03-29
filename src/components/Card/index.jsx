@@ -1,7 +1,7 @@
-import '../../utils/styles/HousingItem.css'
+import '../../utils/styles/Card.css'
 import { Link } from 'react-router-dom'
 
-function HousingItem({ id, title, cover }) {
+function Card({ id, title, cover }) {
 	return (
 		<Link className="kasa-housing-list-item-link" to={`/housing-page/${id}`}>
 			<div key={id} className='kasa-housing-list-item'>
@@ -12,4 +12,4 @@ function HousingItem({ id, title, cover }) {
 	)
 }
 
-export default HousingItem
+export default Card
