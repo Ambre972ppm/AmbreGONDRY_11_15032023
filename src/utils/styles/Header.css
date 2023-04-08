@@ -30,7 +30,7 @@
 @media screen and (max-width: 500px) {
     .kasa-header {
         text-transform: uppercase;
-        margin-inline: 0.5rem;
+        margin-inline: 2rem;
         font-size: 12px;
     }
 }

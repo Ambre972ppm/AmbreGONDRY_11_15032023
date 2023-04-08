@@ -8,3 +8,20 @@
 	padding: 3rem;
 	justify-content: center;
 }
+
+@media (max-width: 900px) {
+	.kasa-housing-list {
+		grid-template-columns:repeat(2, 1fr);
+		background-color: transparent;
+		margin: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.kasa-housing-list {
+		grid-template-columns: 1fr;
+		padding-block: 1rem;
+		padding-inline: 2rem;
+		gap: 1rem;
+	}
+}

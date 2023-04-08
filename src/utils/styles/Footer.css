@@ -18,6 +18,15 @@
 .kasa-footer-quotes p {
     color: white;
     text-decoration: none;
-    padding: 1rem;
+    font-size: 24px;
 }
 
+@media (max-width: 500px) {
+    .kasa-footer-logo img {
+        height: 40px;
+    }
+    
+    .kasa-footer-quotes p {
+        font-size: 12px;
+    }
+}

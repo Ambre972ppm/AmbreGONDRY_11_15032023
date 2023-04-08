@@ -31,3 +31,10 @@
 	font-weight: 100;
 	font-size: 18px;
 }
+
+@media (max-width: 500px) {
+	.kasa-housing-list-item {
+		height: 255px;
+	}
+	
+}
