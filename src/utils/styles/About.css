@@ -59,3 +59,26 @@
 .close img {
     transform: rotate(180deg);
 }
+
+@media(max-width: 600px) {
+    .about-page-info {
+        margin-inline: 0;
+        width: 100%;
+    }
+
+    .about-page-info-header {
+        font-size: 13px;
+    }
+
+    .about-page-content {
+        margin: 2rem;
+    }
+
+    .banner-img {
+        margin: 2rem;
+    }
+
+    .banner-img img {
+        border-radius: 10px;
+    }
+}

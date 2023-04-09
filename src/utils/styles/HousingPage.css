@@ -164,4 +164,14 @@
     .housing-page-info {
         width: 100%;
     }
+
+    .previous-picture, .next-picture {
+        top: 42%;
+        Width: 20px;
+        Height: 35px;
+    }
+
+    .picture-count {
+        display: none;
+    }
 }
