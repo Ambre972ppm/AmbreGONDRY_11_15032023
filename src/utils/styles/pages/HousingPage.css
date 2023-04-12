@@ -85,44 +85,8 @@
     justify-content: space-between;
 }
 
-.housing-page-info {
+.housing-page-content aside {
     width: 45%;
-}
-
-.housing-page-info-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FF6060;
-    border-radius: 5px;
-    padding-inline: 1rem;
-    color: #FFFF;
-    font-weight: 100;
-}
-
-.housing-page-info-header img {
-    cursor: pointer;
-}
-
-.housing-page-info-description {
-    background-color: #F7F7F7;
-    color: #FF6060;
-    border-radius: 0 0 5px 5px;
-    padding: 1rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
-}
-
-.hidden {
-    display: none;
-}
-
-.close {
-    margin-bottom: 2rem;
-}
-
-.close img {
-    transform: rotate(180deg);
 }
 
 .housing-equipment {
@@ -162,7 +126,7 @@
         font-size: 13px;
     }
 
-    .housing-page-info {
+    .housing-page-content aside {
         width: 100%;
     }
 

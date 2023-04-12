@@ -1,4 +1,4 @@
-import '../../utils/styles/Card.css'
+import '../../utils/styles/components/Card.css'
 import { Link } from 'react-router-dom'
 
 function Card({ id, title, cover }) {

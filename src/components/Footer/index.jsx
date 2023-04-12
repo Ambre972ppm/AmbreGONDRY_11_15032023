@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import whitelogo from '../../assets/logos/whitelogo.svg'
-import '../../utils/styles/Footer.css'
+import '../../utils/styles/components/Footer.css'
 
 function Footer() {
     return (<div className="kasa-footer">

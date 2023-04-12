@@ -1,7 +1,7 @@
 import { housingList } from '../../data/logements';
 import Card from '../Card';
 import React from "react";
-import '../../utils/styles/HousingList.css'
+import '../../utils/styles/components/HousingList.css'
 
 function HousingList() {
 
