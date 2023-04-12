@@ -26,7 +26,7 @@ createRoot(
           <About />
         </Route>
         <Route>
-          <ErrorPage path="/*" />
+          <ErrorPage path="/error" />
         </Route>
       </Switch>
       <Footer />

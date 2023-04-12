@@ -11,6 +11,12 @@ function HousingPage() {
   // récupération de l'Id du logement concerné.
   const { id } = useParams()
   const housingSelected = housingList.find((housing) => housing.id === id );
+
+  
+  if (housingSelected === undefined || housingSelected === null ) {
+    return <Redirect to="/error" />;
+  } 
+
   let housingEquipements = housingSelected.equipments.map((equipment, index) => (
     <li key={index} className="housing-equipment">{equipment}</li>
   ));
@@ -19,10 +25,6 @@ function HousingPage() {
 	for (let i = 0; i < 5; i++) {
 		housingRate.push(i < housingSelected.rating ? filledStar : emptyStar);
 	}
-
-  if (id === undefined) {
-    return <Redirect to={`/*`} />;
-  } 
 
   return (
     <div key={housingSelected.id} className="Housing-page">
