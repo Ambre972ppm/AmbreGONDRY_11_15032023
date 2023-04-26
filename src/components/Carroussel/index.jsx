@@ -7,10 +7,13 @@ function Carroussel({id, title, pictures}) {
 
     let arrowPrevious = "previous-picture";
 	let arrowNext = "next-picture";
+    
+    // si il n'y a qu'une image masquer les flèches
     if (pictures.length === 1) {
             arrowPrevious += " hidden";
             arrowNext += " hidden";
-        }
+    }
+
 	let [pictureId, setId] = useState(0);
 
 	function next() {
