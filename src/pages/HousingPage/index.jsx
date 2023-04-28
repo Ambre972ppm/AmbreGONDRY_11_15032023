@@ -12,7 +12,7 @@ function HousingPage() {
   const { id } = useParams()
   const housingSelected = housingList.find((housing) => housing.id === id );
 
-  
+  // si l'id ne correspond pas à un id de logement ou inexistant renvoi vers la page d'erreur
   if (housingSelected === undefined || housingSelected === null ) {
     return <Redirect to="/error" />;
   } 
