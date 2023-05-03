@@ -1,4 +1,4 @@
-import '../../utils/styles/pages/HousingPage.css';
+import '../../pages/HousingPage/HousingPage.css';
 import arrowLeft from '../../assets/icons/arrow-left.svg';
 import arrowRight from '../../assets/icons/arrow-right.svg';
 import { useState } from 'react';

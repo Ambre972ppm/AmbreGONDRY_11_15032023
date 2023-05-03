@@ -1,6 +1,6 @@
 import Banner from '../../components/Banner';
 import HousingList from '../../components/HousingList';
-import '../../utils/styles/pages/Home.css';
+import './Home.css';
 
 function Home() {
   return (

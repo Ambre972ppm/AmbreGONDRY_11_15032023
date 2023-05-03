@@ -1,6 +1,6 @@
 import banner from '../../assets/imgs/about.png';
 import Dropdown from '../../components/Dropdown';
-import '../../utils/styles/pages/About.css';
+import './About.css';
 
 function About() {
 

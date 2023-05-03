@@ -3,7 +3,7 @@ import emptyStar from "../../assets/icons/emptyStar.svg";
 import filledStar from "../../assets/icons/filledStar.svg";
 import { Redirect, useParams } from "react-router-dom";
 import { housingList } from "../../data/logements";
-import '../../utils/styles/pages/HousingPage.css';
+import './HousingPage.css';
 import Dropdown from '../../components/Dropdown';
 
 

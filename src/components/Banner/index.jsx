@@ -1,6 +1,6 @@
 
 import banner from '../../assets/imgs/home.png'
-import '../../utils/styles/components/Banner.css';
+import './Banner.css';
 
 function Banner() {
   return (

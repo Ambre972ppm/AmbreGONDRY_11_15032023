@@ -1,6 +1,6 @@
 import arrowIcon from '../../assets/icons/arrow-action.png';
 import { useState } from 'react';
-import '../../utils/styles/components/Dropdown.css'
+import './Dropdown.css'
 
 
 function Dropdown ({ id, title, content }) {
