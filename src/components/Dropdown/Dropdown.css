@@ -35,7 +35,16 @@
 }
 
 @media (max-width: 600px) {
-    .dropdown-info-header {
+    .dropdown-info-header h2{
         font-size: 13px;
+    }
+
+    .dropdown-info-header img {
+        cursor: pointer;
+        width: 16px;
+        height: 9px;
+    }
+    .dropdown-info-description {
+        font-size: 12px;
     }
 }

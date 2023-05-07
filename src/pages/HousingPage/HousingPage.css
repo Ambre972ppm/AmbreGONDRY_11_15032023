@@ -69,6 +69,12 @@
     display: flex;
 }
 
+.housing-rate img {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
 .housing-page-location-owner h3 {
     width: 93px;
     padding-inline: 10px;
@@ -100,6 +106,34 @@
 
     .housing-page-banner-cover {
         height: 255px;
+    }
+
+    .housing-page-header h1 {
+        font-size: 18px;
+    }
+
+    .housing-page-header h2 {
+        font-size: 14px;
+    }
+
+    .housing-tag {
+        font-size: 10px;
+    }
+
+    .housing-page-location-owner {
+        align-items: center;
+    }
+
+    .housing-rate img {
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+    }
+
+    .housing-page-location-owner h3 {
+        font-size: 12px;
+        padding-right: 0;
+        width: 60px;
     }
 
     .housing-page-informations {
