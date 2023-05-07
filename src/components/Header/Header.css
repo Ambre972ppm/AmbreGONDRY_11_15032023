@@ -33,4 +33,8 @@
         margin-inline: 2rem;
         font-size: 12px;
     }
+
+    .kasa-header-links a {
+        padding: 0.5rem;
+    }
 }
