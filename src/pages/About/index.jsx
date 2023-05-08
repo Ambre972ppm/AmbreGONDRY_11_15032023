@@ -1,4 +1,4 @@
-import banner from '../../assets/imgs/about.png';
+import Banner from '../../components/Banner';
 import Dropdown from '../../components/Dropdown';
 import './About.css';
 
@@ -12,9 +12,8 @@ function About() {
 
   return (
     <div className="About-page">
-      <div className="banner-img">
-        <img src={banner} alt="kasa banner nature" />
-      </div>
+      <Banner src={require("../../assets/imgs/about.png")} alt="kasa banner montagne"/>
+
       <div className="about-page-content">
         <Dropdown id='reliability' title="Fiabilité" content={reliabilityContent} />
         <Dropdown id='respect' title="Respect" content={respectContent} />
