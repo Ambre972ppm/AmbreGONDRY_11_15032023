@@ -1,11 +1,12 @@
 
+// import banner from '../../assets/imgs/home.png'
 import './Banner.css';
 
-function Banner(props) {
+function Banner({src, alt, title}) {
   return (
     <div className="banner-img">
-        <img src={props.src} alt={props.alt} />
-        <h2 className='banner-img-quote'>{props.title}</h2>
+        <img src={src} alt={alt} />
+        <h2 className='banner-img-quote'>{title}</h2>
     </div>
   );
 }
