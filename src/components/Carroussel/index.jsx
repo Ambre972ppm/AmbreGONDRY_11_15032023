@@ -7,11 +7,14 @@ function Carroussel({id, title, pictures}) {
 
     let arrowPrevious = "previous-picture";
 	let arrowNext = "next-picture";
+    let counter= "picture-count";
     
     // si il n'y a qu'une image masquer les flèches
     if (pictures.length === 1) {
             arrowPrevious += " hidden";
             arrowNext += " hidden";
+            counter += "hidden"
+
     }
 
 	let [pictureId, setId] = useState(0);
@@ -28,7 +31,7 @@ function Carroussel({id, title, pictures}) {
         <div key={id} className="housing-page-banner-carroussel">
             <img src={arrowLeft} className={arrowPrevious} onClick={previous} alt="précédente" />
             <img className='housing-page-banner-cover' src={pictures[pictureId]} alt={`${title} cover`} />
-            <p className="picture-count">
+            <p className={counter}>
                 {pictureId + 1}/{pictures.length}
             </p>
             <img src={arrowRight} className={arrowNext} onClick={next} alt="suivante" />
