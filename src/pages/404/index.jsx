@@ -1,4 +1,5 @@
 import Error from "../../components/Error";
+import './Error.css'
 
 function ErrorPage() {
     return (

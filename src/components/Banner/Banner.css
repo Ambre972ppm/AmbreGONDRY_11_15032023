@@ -18,10 +18,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 30px;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
     color: #FFFFFFFF;
     margin: 0;
+    padding-inline: 1rem;
     top: 0;
     bottom: 0;
     left: 0;
@@ -31,18 +32,21 @@
 @media screen and (max-width: 500px) {
     .banner-img {
         position: relative;
-        margin-inline: 0.5rem;
+        margin-inline: 2rem !important;
+    } 
+    
+    .banner-img img {
+        margin: auto;
+        border-radius: 10px !important;
+        width: 335px;
+        max-height: 111px;
     }
+
     .banner-img-quote {
         margin: auto;
         justify-content: start;
         font-size: 24px;
         text-align: left;
-        padding: 2rem;
-    }
-    .banner-img img {
-        margin: auto;
-        width: 335px;
-        height: 111px;
+        padding-inline: 2rem;
     }
 }

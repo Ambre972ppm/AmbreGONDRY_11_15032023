@@ -1,9 +1,23 @@
+import { housingList } from '../../data/logements';
+import Card from '../Card';
+import React from "react";
+import './HousingList.css'
+
 function HousingList() {
-    return (
-      <div className="Housing-list">
-      </div>
+
+  return (
+
+      <React.Fragment>
+        <div className="kasa-housing-list">
+          {housingList.map((housing) => (
+            <Card key={housing.id} id={housing.id} title={housing.title} cover={housing.cover} />
+          ))}
+        </div>
+      </React.Fragment>
     );
+
   }
+
   
   export default HousingList;
   

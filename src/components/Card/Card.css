@@ -1,0 +1,40 @@
+.kasa-housing-list-item {
+	cursor: pointer;
+	height: 340px;
+	width: 100%;
+	border-radius: 10px;
+	position: relative;
+}
+
+.kasa-housing-list-item-cover {
+	position: absolute;
+	border-radius: 10px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	filter: brightness(70%);
+}
+
+.kasa-housing-list-item-cover:hover {
+	filter: brightness(100%);
+}
+
+.kasa-housing-list-item-title {
+	position: absolute;
+	left: 10px;
+	bottom: 5px;
+	color: white;
+	font-weight: 100;
+	font-size: 18px;
+}
+
+@media (max-width: 500px) {
+	.kasa-housing-list-item {
+		height: 255px;
+	}
+	
+}

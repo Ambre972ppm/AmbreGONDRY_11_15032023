@@ -1,0 +1,56 @@
+.banner-img {
+    position: relative;
+    margin-inline: 3rem;
+}
+
+.banner-img img {
+    border-radius: 30px;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 223px;
+    filter: brightness(85%);
+}
+
+.about-page-content {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-page-content aside {
+    width: 90%;
+    margin: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.close {
+    margin-bottom: 2rem;
+}
+
+.close img {
+    transform: rotate(180deg);
+}
+
+@media(max-width: 600px) {
+    .about-page-content aside {
+        margin-inline: 0;
+        width: 100%;
+    }
+
+    .about-page-content {
+        margin: 2rem;
+    }
+
+    .banner-img {
+        margin: 2rem;
+    }
+
+    .banner-img img {
+        border-radius: 10px;
+    }
+}

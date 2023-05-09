@@ -1,0 +1,176 @@
+.Housing-page {
+    margin: 3rem;
+    color: #FF6060;
+}
+
+.housing-page-banner-carroussel {
+    position: relative;
+}
+
+.housing-page-banner-cover {
+    border-radius: 30px;
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 415px;
+}
+
+.previous-picture {
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+	left: 2%;
+    top: 40%;
+}
+
+.next-picture {
+	position: absolute;
+	cursor: pointer;
+	z-index: 10;
+	right: 2%;
+    top: 40%;
+    
+}
+
+.picture-count {
+	position: absolute;
+	font-size: 18px;
+	font-weight: 500;
+	color: white;
+	z-index: 10;
+	bottom: 2%;
+    left: 49%;
+}
+
+.housing-tags {
+    margin-block: 2rem;
+}
+
+.housing-tag {
+    color: #FFFF;
+    background-color: #FF6060;
+    margin-right: 1rem;
+    border-radius: 10px;
+    padding-block: 10px;
+    padding-inline: 1rem;
+}
+
+.housing-page-header h1 {
+    font-size: 30px;
+}
+
+.housing-page-informations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.housing-page-location-owner {
+    margin-block: 1.5rem;
+    display: flex;
+}
+
+.housing-rate img {
+    width: 24px;
+    height: 24px;
+    padding: 5px;
+}
+
+.housing-page-location-owner h3 {
+    width: 93px;
+    padding-inline: 10px;
+}
+
+.housing-page-location-owner img {
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.housing-page-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.housing-page-content aside {
+    width: 45%;
+}
+
+.housing-equipment {
+    list-style-type: none;
+}
+
+@media (max-width: 600px) {
+	.Housing-page {
+        margin: 2rem;
+    }
+
+    .housing-page-banner-cover {
+        height: 255px;
+    }
+
+    .housing-page-header h1 {
+        font-size: 18px;
+    }
+
+    .housing-page-header h2 {
+        font-size: 14px;
+    }
+
+    .housing-tag {
+        font-size: 10px;
+    }
+
+    .housing-page-location-owner {
+        align-items: center;
+    }
+
+    .housing-rate img {
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+    }
+
+    .housing-page-location-owner h3 {
+        font-size: 12px;
+        padding-right: 0;
+        width: 60px;
+    }
+
+    .housing-page-informations {
+        display: flex;
+        flex-direction: column;    
+    }
+    
+    .housing-page-indications {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .housing-tags {
+        display: flex;
+        flex-wrap: wrap;
+        margin-block: 0;
+        gap: 1rem 0;
+    }
+
+    .housing-page-content {
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+    .housing-page-content aside {
+        width: 100%;
+    }
+
+    .previous-picture, .next-picture {
+        top: 42%;
+        Width: 20px;
+        Height: 35px;
+    }
+
+    .picture-count {
+        display: none;
+    }
+}

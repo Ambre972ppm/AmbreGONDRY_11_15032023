@@ -1,0 +1,27 @@
+.kasa-housing-list {
+	background-color: #F7F7F7;
+	border-radius: 25px;
+	margin: 3rem;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3rem;
+	padding: 3rem;
+	justify-content: center;
+}
+
+@media (max-width: 900px) {
+	.kasa-housing-list {
+		grid-template-columns:repeat(2, 1fr);
+		background-color: transparent;
+		margin: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.kasa-housing-list {
+		grid-template-columns: 1fr;
+		padding-block: 1rem;
+		padding-inline: 2rem;
+		gap: 1rem;
+	}
+}
